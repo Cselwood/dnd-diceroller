@@ -4,11 +4,11 @@
 
  Includes:
 
+     - 4, 6, 8, 10, 12, 20 and 100 sided dice rolls.
      - GUI Interface
-     
      - Roll History
 
- Does not include 3D dice rolling (yet)
+ Does not include 3D dice rolling (yet)!
 
  ## Installation
 
