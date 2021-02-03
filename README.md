@@ -1,8 +1,11 @@
  # D&D Diceroller
 
  An offline dicerolling tool for Dungeons & Dragons in Python!
+
  Includes:
+
      - GUI Interface
+     
      - Roll History
 
  Does not include 3D dice rolling (yet)
