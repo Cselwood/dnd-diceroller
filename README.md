@@ -2,7 +2,7 @@
 
  An offline dicerolling tool for Dungeons & Dragons in Python!
 
- Includes:
+ ## Features
 
      - Roll D20s to your hearts content.
 
