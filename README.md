@@ -4,11 +4,15 @@
 
  Includes:
 
-     - 4, 6, 8, 10, 12, 20 and 100 sided dice rolls.
-     - GUI Interface
-     - Roll History
+     - Roll D20s to your hearts content.
 
- Does not include 3D dice rolling (yet)!
+ ## Future
+
+     - 4, 6, 8, 10, 12 and 100 sided dice rolls.
+     - Fully Implemented GUI Interface
+     - 3D Dice Rolling
+     - Multiple Dice Rolled at Once
+     - Roll History
 
  ## Installation
 
