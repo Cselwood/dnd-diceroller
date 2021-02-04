@@ -12,7 +12,7 @@
 
  ## Installation
 
- Installation incomplete, as executable file being developed. For current build, download these two dependencies:
+ Installation guide incomplete. Current plan is to develop an executable! For current build, download these two dependencies:
  Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Python and tkinter.
 
  ```bash
