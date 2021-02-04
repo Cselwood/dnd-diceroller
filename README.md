@@ -13,6 +13,7 @@
      - 3D Dice Rolling
      - Multiple Dice Rolled at Once
      - Roll History
+     - OOP Structure
 
  ## Installation
 
