@@ -13,7 +13,13 @@
      - 3D Dice Rolling
      - Multiple Dice Rolled at Once
      - Roll History
+
+ ## How It's Made!
+
      - OOP Structure
+     - Python
+     - Tkinter for GUI
+     - MVC Methodology
 
  ## Installation
 
