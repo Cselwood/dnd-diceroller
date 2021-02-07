@@ -9,12 +9,12 @@ An offline dice rolling tool for Dungeons & Dragons in Python! Currently being d
 
 ## Future
 
-    - Dice Implementation!
-    - 4, 6, 8, 10, 12, 20 and 100 sided dice rolls.
-    - Fully Implemented GUI Interface
-    - 3D Dice Rolling
-    - Multiple Dice Rolled at Once
-    - Roll History
+     - Dice Implementation!
+     - 4, 6, 8, 10, 12, 20 and 100 sided dice rolls.
+     - Fully Implemented GUI Interface
+     - 3D Dice Rolling
+     - Multiple Dice Rolled at Once
+     - Roll History
 
 ## How It's Made!
 
@@ -30,7 +30,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Python 
 ```bash
 pip install python
 pip install tkinter
-pip install fonttools 
+pip install fonttools
 ```
 
 ## Usage
