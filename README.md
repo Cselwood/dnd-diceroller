@@ -10,7 +10,7 @@
  ## Future
 
      - Dice Implementation!
-     - 4, 6, 8, 10, 12 and 100 sided dice rolls.
+     - 4, 6, 8, 10, 12, 20 and 100 sided dice rolls.
      - Fully Implemented GUI Interface
      - 3D Dice Rolling
      - Multiple Dice Rolled at Once
