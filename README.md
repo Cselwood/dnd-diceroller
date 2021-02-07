@@ -4,7 +4,7 @@
 
  ## Features
 
-     - Roll D20s to your hearts content.
+     - Not available yet, but soon you'll be able to roll dice to your hearts content!
 
  ## Future
 
