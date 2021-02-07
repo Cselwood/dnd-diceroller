@@ -1,6 +1,11 @@
 # Imports
 import tkinter as tk
+import fontTools.ttLib
 import random
+
+class titleFrame():
+    def __init__(self):
+        print("Hi")
 
 class mainWindow:
     window = tk.Tk()
