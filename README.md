@@ -30,7 +30,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Python 
 ```bash
 pip install python
 pip install tkinter
-pip install fonttools
+pip install fonttools 
 ```
 
 ## Usage
