@@ -48,9 +48,9 @@ class mainWindow:
 
     def updateMainLabel(self):
 
-        if self.number_of_dice == self.number_to_words[1]:
+        if self.number_of_dice == 1:
             self.main_label_ending = " Dice!"
-        elif self.number_of_dice != self.number_to_words[1]:
+        else:
             self.main_label_ending = " Die!"
 
         self.main_label_full = "Rolling " + self.number_of_dice + " " + str(self.dice_sides) + " Sided" + str(self.main_label_ending)

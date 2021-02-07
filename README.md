@@ -1,6 +1,6 @@
  # D&D Diceroller
 
- An offline dicerolling tool for Dungeons & Dragons in Python!
+ An offline dicerolling tool for Dungeons & Dragons in Python! Currently being developed. No functionality available yet, and GUI being developed alongside program.
 
  ## Features
 
@@ -8,6 +8,7 @@
 
  ## Future
 
+     - Dice Implementation!
      - 4, 6, 8, 10, 12 and 100 sided dice rolls.
      - Fully Implemented GUI Interface
      - 3D Dice Rolling
