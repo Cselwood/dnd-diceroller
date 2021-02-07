@@ -16,10 +16,9 @@
 
  ## How It's Made!
 
-     - OOP Structure
-     - Python
+     - Entirely in Python!
      - Tkinter for GUI
-     - MVC Methodology
+     - Object Oriented and MVC Methodology
 
  ## Installation
 
