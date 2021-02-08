@@ -1,5 +1,6 @@
 # Imports
-from tkinter import *
+# ====================================================
+from tkinter import Tk, Frame
 import fontTools.ttLib
 import random
 
@@ -9,7 +10,7 @@ def convertToWord(amount):
     return number_to_words[amount];
 
 def generateDice(amount, type):
-    print("hi")
+    print("Generate Dice Test")
 
 # Model Declarations
 # ====================================================
@@ -18,30 +19,40 @@ class Dice:
         self.value = value
         self.sides = sides
 
-# Frames and Classes
+# Main Frames and Classes
 # ====================================================
 class MainFrameLeft():
     def __init__(self):
-        print("Hi")
+        print("Main Frame Left Test")
 
 class MainFrameRight():
     def __init__(self):
-        print("Hi")
+        print("Main Frame Right Test")
 
 class MainWindow():
-    def __init__(self, master):
-        self.master = master
-        master.title = "D&D Diceroller!"
+    def __init__(self):
+        self.mainWidgets()
+
+    def mainWidgets(self):
+        print("Building Widgets Test")
+
+# Left Widgets and Frames
+# ====================================================
+
+# Right Widgets and Frames
+# ====================================================
 
 # Main
 # ====================================================
-class AppWindow:
-    def __init__(self, parent):
+class AppWindow(Frame):
+    def __init__(self, parent=None):
+        Frame.__init__(self, parent)
         self.parent = parent
         self.mainFrames()
 
     def mainFrames(self):
-        diceWindow = MainWindow()
+        self.winfo_toplevel().title("D&D Diceroller!")
+        self.winfo_toplevel().geometry("900x600")
 
 if __name__ == '__main__':
     window = Tk()
