@@ -1,6 +1,6 @@
 # Imports
 # ====================================================
-from tkinter import Tk, Frame
+from tkinter import Tk, Frame, Label
 import fontTools.ttLib
 import random
 
@@ -21,40 +21,36 @@ class Dice:
 
 # Main Frames and Classes
 # ====================================================
-class MainFrameLeft():
+class MainFrameLeft(Frame):
     def __init__(self):
         print("Main Frame Left Test")
+        self.label = Label(text="Hello There", bg="#fff")
 
-class MainFrameRight():
+class MainFrameRight(Frame):
     def __init__(self):
         print("Main Frame Right Test")
 
-class MainWindow():
-    def __init__(self):
-        self.mainWidgets()
+class MainWindow(Frame):
+    def __init__(self, parent):
+        Frame.__init__(self, parent)
+        self.grid_columnconfigure(2, weight = 1)
+        framesLeft = MainFrameLeft()
+        framesRight = MainFrameRight()
 
-    def mainWidgets(self):
-        print("Building Widgets Test")
-
-# Left Widgets and Frames
-# ====================================================
-
-# Right Widgets and Frames
-# ====================================================
+class AppWindow:
+    def __init__(self, master):
+        self.master = master
+        self.master.title("D&D Diceroller!")
+        self.master.geometry("900x600")
+        self.master.configure(bg="#000")
+        mainWindow = MainWindow(self.master);
 
 # Main
 # ====================================================
-class AppWindow(Frame):
-    def __init__(self, parent=None):
-        Frame.__init__(self, parent)
-        self.parent = parent
-        self.mainFrames()
-
-    def mainFrames(self):
-        self.winfo_toplevel().title("D&D Diceroller!")
-        self.winfo_toplevel().geometry("900x600")
-
-if __name__ == '__main__':
+def main():
     window = Tk()
     app = AppWindow(window)
     window.mainloop()
+
+if __name__ == '__main__':
+    main()
