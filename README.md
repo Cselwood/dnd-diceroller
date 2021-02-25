@@ -47,8 +47,6 @@ The GUI buttons are in built into the App. You can delete your history with the 
 
 ## Meta
 
-Chris Selwood – chris@selwood.io
-
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [https://github.com/Cselwood](https://github.com/Cselwood)
